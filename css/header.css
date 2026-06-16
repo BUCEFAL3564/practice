@@ -1,0 +1,176 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 400 14px/1 'Rubik', sans-serif;
+    letter-spacing: 0;
+}
+
+.top-menu {
+    font: 400 14px/1 'Rubik', sans-serif;
+    letter-spacing: 0;
+   
+}
+
+/* ====== телефон и язык ====== */
+.number-lenguege {
+    background-color: #F2102B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 17px 180px 17px 180px; 
+    width: 100%;
+    height: 49px;
+}
+
+.telephone-number {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #FFFFFF;
+}
+
+.lenguege {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  
+    color: #FFFFFF;
+}
+
+.telephone-number-text {
+   
+    margin: 0;
+}
+
+.russian {
+    font-weight: 700;
+}
+
+.englsh {
+    font-weight: 400;
+}
+
+.englsh:hover,
+.russian:hover {
+    cursor: pointer;
+}
+
+.planet-icon {
+    display: flex;
+    align-items: center;
+    line-height: 0;
+}
+
+/* ====== поисковое меню ====== */
+.search-menu {
+    padding-left: 180px;
+    padding-right: 180px;
+    height: 81px;
+    display: flex;
+    gap: 28px;
+    color: #252525;
+    align-items: center;
+   
+    width: 100%;
+    border-bottom: 1px;
+    border-color: #A3AAAB3D;
+    border-style: solid;
+}
+
+/* ====== лого ====== */
+.LOGO {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.LOGO-icon {
+    display: flex;
+    gap: 0;
+    align-items: center;
+}
+
+.LOGO-name {
+    display: flex;
+    gap: 0;
+    align-items: center;
+    transform: translate(-32px);
+}
+
+.element-logo-1 { transform: translate(0); }
+.element-logo-2 { transform: translate(-10px); }
+.element-logo-3 { transform: translate(-19px); }
+.element-logo-4 { transform: translate(-27px); }
+
+.element-logo-text-1 { transform: translate(0); }
+.element-logo-text-2 { transform: translate(0); }
+.element-logo-text-3 { transform: translate(-3px); }
+.element-logo-text-4 { transform: translate(-7px); }
+.element-logo-text-5 { transform: translate(-6px); }
+.element-logo-text-6 { transform: translate(-9px); }
+.element-logo-text-7 { transform: translate(-9px); }
+
+/* ====== ссылки ====== */
+.link-menu {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.link-menu a {
+    color: #252525;
+    text-decoration: none;
+    width: auto;
+    white-space: nowrap;
+}
+
+.link-menu a:hover {
+    color: #F2102B;
+}
+.icon-search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: right;
+    
+}
+
+#iconsearch {
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+
+#iconsearch:hover svg path {
+    fill: #F2102B;
+    transition: fill 0.3s ease;
+}
+
+/* ====== DROPDOWN ====== */
+.dropdown {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.dropdown-icon {
+    display: inline-block;
+    transform: rotate(90deg);
+    font-size: 12px;
+    color: #252525;
+}
