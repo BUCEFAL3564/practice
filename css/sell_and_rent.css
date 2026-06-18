@@ -1,0 +1,6 @@
+.sell-and-rent{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 80px 150px 80px 150px;
+}

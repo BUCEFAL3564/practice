@@ -13,7 +13,7 @@
 }
 
 .search-cotent{
-    width: 100%;
+    flex: 1;
 }
 
 .search-input-content{
@@ -35,19 +35,29 @@
 
 .all-input{
     display: flex;
+    flex: 1;
     align-items: center;
-    
-    background-color: #FFFFFF;
     width: 100%;
+    background-color: #FFFFFF;
+    
+    
+}
+
+.searchinp { 
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .search-input{
+    flex: 1;
     font-size: 16px;
     height: 50px;
     width: 100%;
     outline: none;
     border: none;
-
+    flex: 1;
 }
 
 .search-btn{
