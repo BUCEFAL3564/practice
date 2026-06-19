@@ -26,7 +26,7 @@ body {
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-    padding: 17px 180px 17px 180px; 
+    padding: 17px 150px 17px 150px; 
     width: 100%;
     height: 49px;
 }
@@ -72,8 +72,8 @@ body {
 
 /* ====== поисковое меню ====== */
 .search-menu {
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-left: 150px;
+    padding-right: 150px;
     height: 81px;
     display: flex;
     gap: 28px;

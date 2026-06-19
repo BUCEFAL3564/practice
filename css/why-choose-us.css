@@ -1,0 +1,96 @@
+section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.why-choose-us{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 80px 150px 80px 150px;
+    width: 100%;
+    background-color: #A3AAAB0D;
+    
+}
+
+.why-choose-us-title{
+    width: 100%;
+    gap:16px;
+}
+.Lower-title{
+    font-size: 18px;
+    line-height: 28px;
+}
+.Upper-title{
+    line-height: 52px;
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+
+.reasons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.reason-card{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    border: 1px;
+    border-style: solid;
+    border-color: #A3AAAB33;
+    padding: 24px;
+    max-height: 240px;
+    
+    flex: 1;
+}
+
+.icon-reason{
+    display: flex;
+    background-color: #F2102B12;
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.reason-title1{
+    font-size: 24px;
+    font-weight: 500;
+}
+.reason-title2{
+    font-size: 16px;
+}
+
+.emblem-reason{
+    align-items: flex-end;
+}
+
+.reason-img{
+    flex: 1;
+    width: 100%;
+    overflow: hidden;
+    height: 240px;
+}
+
+.reason-img img{
+    object-fit:cover;
+    
+    width: 100%;
+    height: 240px;
+}
+
+.second-column-reason{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.first-column-reason{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
