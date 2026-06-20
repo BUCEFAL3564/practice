@@ -1,0 +1,69 @@
+.our-clients{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 80px 150px 80px 150px;
+}
+
+.our-clients-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.clients-title-upper{
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 500;
+    
+}
+
+.clients-title-lower{
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+   
+    line-height: 32px;
+    letter-spacing: 0%;
+
+}
+
+
+.swiper.swiper-clients {
+     max-height: 80px;
+    overflow: hidden;
+    width: 965.2px;
+    align-items: center;
+    justify-content: center;
+
+}
+.swiper-clients .swiper-slide {
+    max-width: 190px;
+    max-height: 80px;
+   
+}
+
+.swiper-clients .swiper-slide svg{
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+    
+    
+}
+
+.swiper-clients .swiper-slide svg:hover{
+    filter: grayscale(0%);
+    
+}
+
+
+
+.swiper-clients .swiper-button-next::after,
+.swiper-clients .swiper-button-prev::after {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    
+    
+}
+

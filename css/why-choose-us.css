@@ -74,13 +74,18 @@ section {
     width: 100%;
     overflow: hidden;
     height: 240px;
+   
 }
 
 .reason-img img{
     object-fit:cover;
-    
+     transition: transform 0.5s ease;
     width: 100%;
     height: 240px;
+}
+
+.reason-img img:hover{
+   transform: scale(1.1);
 }
 
 .second-column-reason{

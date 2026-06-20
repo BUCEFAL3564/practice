@@ -1,0 +1,114 @@
+.news{
+    padding: 80px 150px 80px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 770px;
+    background-color: #A3AAAB0D;
+}
+
+.news-title{
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 500;
+}
+.swiper-news{
+    height: 120px;
+    max-width: 1140px;
+}
+
+.swiper-news .swiper-slide {
+   
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 364px;
+    border: 1px solid brown;
+    height: 526px;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 24px 0px #7985A41F;
+    overflow: hidden;
+    
+}
+.swiper-news .swiper-slide img{
+    height: 229px;
+    object-fit: cover;
+}
+    
+
+.btn-swipe{
+    height: 64px;
+    width: 64px;
+    background-color: #F2102B;
+}
+
+.swiper-news .swiper-button-next,
+.swiper-news .swiper-button-prev{
+    background-color: #F2102B;
+    transform: translateY(-185px);
+    width: 64px;
+    height: 64px;
+    
+    
+}
+.swiper-news .swiper-button-next::after,
+.swiper-news .swiper-button-prev::after {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    
+    
+}
+.news_date{
+    padding: 20px 16px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.news-title1{
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+    margin-top: 8px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.news-title2{
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+
+}
+
+.btn-more-detailed{
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    color: #F2102B;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 100%;
+    height: 53px;
+    margin: 20px 60px 20px 20px;
+    border: 1px solid #F2102B;
+    width: 324px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+.btn-more-detailed:hover{
+    background-color: #F2102B12;
+}
