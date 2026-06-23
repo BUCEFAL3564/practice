@@ -1,0 +1,18 @@
+
+@import url('header.css');
+@import url('search.css');
+@import url('footer.css');
+
+@import url('sell_and_rent.css');
+@import url('services.css');
+@import url('why-choose-us.css');
+@import url('decisions.css');
+@import url('our-clients.css');
+@import url('news.css');
+@import url('quastions.css');
+@import url('quastions-win.css');
+
+@import url('swiper.css');
+@import url('https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');

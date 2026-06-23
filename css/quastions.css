@@ -1,0 +1,67 @@
+
+.quastions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 100px 150px 100px 150px; 
+
+}
+
+.quastions-win{
+
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 440px;
+    gap: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/images/PIC-FE414-20QC-6.jpg');
+    cursor: pointer;
+}
+
+
+.quastions-win h1{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 66px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.quastions-win h2{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.order-phone{
+    background-color: #F2102B;
+    width: 197px;
+    height: 53px;
+    text-align: center;
+    align-content: center;
+
+}
+.order-phone p{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+
+    
+}

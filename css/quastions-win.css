@@ -1,0 +1,165 @@
+.quastions-win-map{
+    padding: 32px 150px 80px 150px;
+}
+
+.breadcrumbs{
+    display: flex;
+    flex-direction: row;
+    gap: 6.5px;
+
+}
+
+.breadcrumbs a{
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: #252525;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0%;
+
+}
+
+
+.breadcrumbs a:hover{
+   color: #F2102B;
+}
+
+.quastions-titles{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+
+}
+
+.quastions-titles h1{
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 48px;
+    line-height: 52px;
+}
+.quastions-info{
+    display: flex;
+    gap: 61.5px;
+    padding-top: 40px;
+    padding-bottom: 32px;
+}
+
+.container-info{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -1px;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.map{
+    max-height: 500px;
+}
+
+.CTA-call{
+    display: flex;
+    padding-top: 46px;
+}
+.CTA-call-inputs{
+    padding: 64px 40px 64px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.ctacall-img {
+    overflow: hidden;
+    display: flex;             
+    justify-content: center;   
+    align-items: center;       
+    height: 693px;
+    width: 570px;
+}
+
+.CTA-call-titles{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.CTA-call-titles h1{
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.CTA-call-titles h2{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    vertical-align: bottom;
+
+}
+.input-data{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+.input-data input{
+    height: 48px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 0px;
+    outline: none;
+    background-color: #EEEEEE;
+    padding:10px;
+}
+.ctacall-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;            
+}
+
+.ford-qua{
+    background-color: #F2102B;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    align-content: center;
+    height: 48px;
+    width: 100%;
+    margin-top: 16px;
+}
+.checkbox-agree{
+    display: flex;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+
+}
+.checkbox-agree p{
+     font-size: 14px;
+
+}
+.checkbox-agree span{
+     color: #F2102B;
+     font-size: 14px;
+     cursor: pointer;
+
+}
+.check {
+    accent-color: #F2102B;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
